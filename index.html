@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,500italic,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title></title>
+</head>
+<body id = "show">
+	<div class="title">
+	
+	<h2> 
+ 		<img id="play" onclick="toggleSound()" src='https://raw.githubusercontent.com/sbjacobs231/Harry-Potter-Quiz/master/icons/soundOn.png'>
+ 				<audio id="poke" src="audio/red.mp3" type="audio/mp3"></audio>
+		<img id="pause" onclick="toggleSound()" src='https://raw.githubusercontent.com/sbjacobs231/Harry-Potter-Quiz/master/icons/soundOff.png'>
+		90s Nostalgia: Generation One Pokemon Quiz!
+	</h2>
+	</div>
+		<section class="vaporeon">
+			<div class="quiz">
+			<h3> Welcome to the Generation one Pokemon Quiz! <br> <br>
+			This quiz was created to test your knowledge of first generation pokemon! <br> <br>
+			Are <span id="you">you</span> up to the challenge? </h3>
+			</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-3">
+
+				<h5 id="question0"></h5> <!--We add 0-X so that our for loop can loop through these tags. (tags become our variable)!-->
+						<input id="answer0"> 
+				<h5 id="question1"></h5>
+						<input id="answer1">
+				<h5 id="question2"></h5>
+						<input id="answer2">
+				<h5 id="question3"></h5>
+						<input id="answer3">
+				<h5 id="question4"></h5>
+						<input id="answer4">
+				<h5 id="question5"></h5>
+						<input id="answer5">
+				<h5 id="question6"></h5>
+						<input id="answer6">
+				<h5 id="question7"></h5>
+						<input id="answer7">
+						<br>
+				<button type="button" id="char">Submit your answers!</button>
+				<div>
+					<h4 class="correct">Correct: <span id="correct"></span></h4>
+					<h4 class="incorrect">Incorrect: <span id="incorrect"></span> </h4>
+             </div>
+   		 </div>
+	</div>
+</div>
+<div id="booyah"></div>
+</section>
+
+<footer id= "dang">
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6">
+				<h5 id="hax"> Pokemon Quiz App. Dione Dacuycuy.</h5>
+		</div>
+	<div class="col-sm-6">
+						<div class="social-media">
+							<i class="fa fa-facebook fa-lg soft"></i>
+							<i class="fa fa-twitter fa-lg soft"></i>
+							<i class="fa fa-github fa-lg soft"></i>
+							<i class="fa fa-linkedin fa-lg soft"></i>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+</footer>
+			 
+
+		</section>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="javascript/main.js"></script>
+</body>
+</html>
+

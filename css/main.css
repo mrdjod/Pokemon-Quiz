@@ -1,0 +1,108 @@
+.vaporeon{
+background: url(http://wallpapercave.com/wp/6qfo7we.png)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:850px;
+}
+.correct{
+	color:#F1F0C4;
+}
+.incorrect{
+	color:#823C80;
+}
+h2{
+	font-style: bold;
+	font-family: 'Roboto', sans-serif;
+	    background-color: rgba(243, 233, 180, 0.16);
+	        margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 1.5%;
+    text-align: center;
+}
+h5{
+font-family: 'Roboto', sans-serif;
+font-style: italic;
+}
+footer{
+	height:35px;
+	background-color: #406379;
+}
+#question0{
+	margin-top: 0;
+}
+.quiz{
+	padding-top: 5.5%;
+}
+.quiz h3{
+	display: inline-block;
+	font-family: 'Roboto'
+}
+#you{
+	font-weight: bold;
+	font-style: italic;
+}
+/*audio */
+#pause{
+	display: none;
+}
+#play,
+#pause{
+	width:40px;
+}
+.social-media{
+	width:25%;
+	float:right;
+	display: inline-block;
+}
+#hax{
+	display: inline-block;
+}
+
+/*media inquiries*/
+@media(max-width: 1167px){
+	.quiz h3{
+          font-size: 18px;
+	}
+}
+@media(max-width: 775px){
+	.quiz h3{
+          font-size: 16px;
+	}
+}
+@media(max-width: 675px){
+	#play,
+	#pause{
+          width:30px;
+	}
+}
+@media(max-width: 343px){
+	#play,
+	#pause{
+          width:20px;
+	}
+}
+@media(max-width: 925px){
+	.vaporeon{
+          height:880px;
+	}
+}
+
+@media(max-width: 847px){
+	.vaporeon{
+          height:920px;
+	}
+}
+
+
+@media(max-width: 760px){
+	.social-media{
+          float:none !important;
+          width:66%;
+
+	}
+}
